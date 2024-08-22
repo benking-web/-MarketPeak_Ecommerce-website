@@ -28,7 +28,7 @@ The static website for MarketPeak_Ecommerce includes:
 
 I already had Git, MobaXterm, and Visual Studio Code installed on my local machine. Here are the steps I followed to set up the project:
 
-1. **Download and Install Git**: Downloaded Git from Google and installed it.
+1. **Download and Install Git**: Downloaded Git from Google and run the installer from git-scm.com.
 2. **Create New Directory**: 
    ```bash
    mkdir Marketpeak_Ecommerce
@@ -206,3 +206,42 @@ With `httpd` configured and website files in place, MarketPeak E-commerce platfo
 
 **Solution:**
 - use AWS free tier help to stayed connected without payment.
+
+- # My Images
+
+## Image 1
+
+![clone image](![ec2 gitclone](https://github.com/user-attachments/assets/5866fd56-f7e3-40ed-9d5d-7bd2123a6dc5)
+
+
+## Image 2
+![git init 2](![Screenshot 2024-08-10 042102](https://github.com/user-attachments/assets/558e77ec-58a3-48c3-a42b-6febc69dd5da)
+
+
+## Image 3
+![git config 3](![Screenshot 2024-08-10 042220](https://github.com/user-attachments/assets/1e97836c-9664-4192-86a0-299bab9e39f9)
+
+## image 4
+![image 4](![![Screenshot 2024-08-10 042448](https://github.com/user-attachments/assets/0405cc7c-007c-4705-bc96-e5eac795de11)
+## image 5
+![image 5](![![Screenshot 2024-08-10 042448](https://github.com/user-attachments/assets/0405cc7c-007c-4705-bc96-e5eac795de11)
+
+## image 6
+
+![image 6](![Screenshot 2024-08-10 042806](https://github.com/user-attachments/assets/81bfebf8-059d-497b-ae7e-ebb028f8ab9b)
+
+
+
+## image 7
+
+![image 7](![![Screenshot 2024-08-10 043042](https://github.com/user-attachments/assets/48473156-f5a8-479f-b5a1-91b2d16a06ab)
+
+## image 8
+
+![image 7](![Screenshot 2024-08-10 042656](https://github.com/user-attachments/assets/7fc859a4-cf73-4044-8f3b-77f63cbc1588)
+
+## image 9
+
+![image 7](![Screenshot 2024-08-10 042656](https://github.com/user-attachments/assets/7fc859a4-cf73-4044-8f3b-77f63cbc1588)
+
+
