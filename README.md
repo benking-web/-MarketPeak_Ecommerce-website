@@ -147,6 +147,40 @@ Once your instance is up and running, you might want to configure it further:
    git clone git@github.com:benking-web/MarketPeak_Ecommerce.git
    ```
 
+
+### 2.2.1 AWS DEPLOYMENT
+
+
+### 1. **Choose Your Deployment Strategy**
+
+- **EC2 Instances**: For full control over your virtual servers.
+
+### 2. **Deploying with EC2 Instances**
+
+#### **Step 1: Launch an EC2 Instance**
+
+1. **Log in to the AWS Management Console**.
+2. **Navigate to EC2**: Go to "Services" and select "EC2".
+3. **Launch Instance**:
+   - Click “Launch Instance”.
+   - Choose an AMI (Amazon Machine Image) that suits your needs.
+   - Select an instance type.
+   - Configure instance details, add storage, and configure security groups.
+   - Review and launch the instance. Select or create a key pair for SSH access.
+
+#### **Step 2: Configure the Instance**
+
+1. **Connect to the Instance**: Use SSH to access your instance.
+   ```bash
+   ssh -i "your-key.pem" ec2-user@your-instance-public-dns
+   ```
+2. **Install Dependencies**: Install the software and dependencies needed for your application.
+3. **Deploy Application**: Transfer your application files to the instance using SCP, SFTP, or by cloning a repository.
+4. **Configure Services**: Set up and configure your application services. For example, configure a web server like Apache or Nginx, and a database if needed.
+
+
+
+
 ### 2.3 Install a Web Server on EC2
 
 1. Installed Apache HTTP Server (`httpd`) on the EC2 server to host MarketPeak E-commerce site:
