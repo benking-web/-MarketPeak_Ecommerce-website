@@ -74,6 +74,61 @@ git commit -m "Initial commit with basic e-commerce site structure"
 ## 2.0 AWS Deployment
 
 ### 2.1 Set Up an AWS EC2 Instance
+When you launch an EC2 instance on Amazon Web Services (AWS), you need to choose an Amazon Machine Image (AMI) that serves as the template for your instance. For Linux-based environments, AWS provides a variety of AMIs to suit different needs. Here's a guide to help you select and work with Linux AMIs on EC2:
+
+### 1. **Choosing a Linux AMI**
+
+AWS offers several Linux AMIs, including:
+
+#### **Amazon Linux AMI**
+
+- **Amazon Linux 2**: The latest version, optimized for AWS and supported by AWS.
+  - **Features**: Long-term support, integrated with AWS services, security updates.
+  - **Usage**: Great for general-purpose workloads and well-supported by AWS.
+  - **Find It**: Search for "Amazon Linux 2" in the AWS Management Console
+
+
+### 2. **Launching an EC2 Instance with a Linux AMI**
+
+1. **Log in to the AWS Management Console**.
+
+2. **Navigate to the EC2 Dashboard**:
+   - Go to "Services" and select "EC2".
+
+3. **Launch Instance**:
+   - Click "Launch Instance" to start the instance creation wizard.
+
+4. **Select an AMI**:
+   - Choose  AMI  from the list. You can use the search bar to find specific Linux distributions.
+
+5. **Choose an Instance Type**:
+   - Select the instance type based on your workload requirements (e.g., t2.micro for light workloads or m5.large for more intensive tasks).
+
+6. **Configure Instance Details**:
+   - Set up network settings, IAM roles, and other configurations.
+
+7. **Review and Launch**:
+    - Review your settings and click "Launch". You will be prompted to select or create a key pair for SSH access.
+
+8. **Connect to Your Instance**:
+    - After launching, go to the "Instances" page, select your instance, and click "Connect" to get instructions for connecting via SSH.
+
+### 3. **Configuring Your Linux Instance**
+
+Once your instance is up and running, you might want to configure it further:
+
+- **Update Packages**: 
+  ```bash
+  sudo apt-get update  
+  sudo yum update                               
+  ```
+
+- **Install Necessary Software**:
+  ```bash
+  sudo apt-get install <Ubuntu/Debian> 
+  sudo yum install <Amazon Linux>      
+  ```
+
 
 1. Logged into AWS Management Console and launched an EC2 instance using an Amazon Linux AMI.
 2. Connected to the instance using SSH.
